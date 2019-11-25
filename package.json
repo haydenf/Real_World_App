@@ -1,0 +1,28 @@
+{
+  "name": "mern_app",
+  "version": "1.0.0",
+  "description": "Application using MERN stack for final coderAcademy assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "testing",
+    "start": "node app.js",
+    "server": "node app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haydenf/Real_World_App.git"
+  },
+  "author": "Hayden Fuller, Jo Dunham, Ewe Lin Loo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haydenf/Real_World_App/issues"
+  },
+  "homepage": "https://github.com/haydenf/Real_World_App#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}
