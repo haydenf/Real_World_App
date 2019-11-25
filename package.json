@@ -10,10 +10,6 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/haydenf/Real_World_App.git"
-  },
   "author": "Hayden Fuller, Jo Dunham, Ewe Lin Loo",
   "license": "ISC",
   "bugs": {
